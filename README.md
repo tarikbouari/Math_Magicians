@@ -7,7 +7,7 @@
 > Math-Magicians is an oline web calculator built with React Library .
 
 ## Built With
-- React & Redux
+- React 
 - VCS: GitBash
 - Following github flows standards.
 
@@ -17,7 +17,7 @@
 
 ## Authors
 
-👤 **Tarik Bouari **
+👤 **Tarik Bouari**
 
 - GitHub: [@tarikbouari](https://github.com/tarikbouari)
 - Twitter: [@tarikbouari](https://twitter.com/TarikBouari)
