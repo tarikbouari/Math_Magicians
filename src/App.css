@@ -27,7 +27,7 @@ body {
   color: #fff;
 }
 
-p{
+p {
   text-align: right;
   margin-right: 1rem;
 }
@@ -47,14 +47,15 @@ p{
 .row3 :last-child,
 .row4 :last-child,
 .row5 :last-child {
-  background-color: #F5913E;
+  background-color: #f5913e;
 }
 
 .row1 input,
 .row2 input,
 .row3 input,
-.row4 input{
+.row4 input {
   width: 25%;
+
   /* border: 0.2px solid #858694; */
 }
 
