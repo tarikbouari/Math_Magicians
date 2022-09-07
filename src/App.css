@@ -5,6 +5,7 @@
 body {
   background-color: antiquewhite;
   padding: 7rem;
+  font-weight: bold;
 }
 
 .App-logo {
@@ -13,7 +14,6 @@ body {
 }
 
 .container {
-  width: 70%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -24,7 +24,12 @@ body {
   width: 60%;
   background-color: #858694;
   height: 40px;
+  color: #fff;
+}
 
+p{
+  text-align: right;
+  margin-right: 1rem;
 }
 
 .row1,
@@ -34,7 +39,7 @@ body {
 .row5 {
   display: flex;
   width: 60%;
-  height:40px;
+  height: 40px;
 }
 
 .row1 :last-child,
@@ -63,7 +68,5 @@ body {
 
 .row5 input:nth-child(3) {
   width: 25%;
-  background-color: #F5913E;
-  
+  background-color: #f5913e;
 }
-
