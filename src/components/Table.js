@@ -1,12 +1,13 @@
 const Table = () => (
   <div className="container">
-    <div className="render" value="0" />
-
+    <div className="render">
+      <p>0</p>
+    </div>
     <div className="row1">
       <input type="button" className="ac" value="AC" />
+      <input type="button" className="ac" value="+/-" />
       <input type="button" className="ac" value="%" />
-      <input type="button" className="ac" value=" U+00F7" />
-      <input type="button" className="ac" />
+      <input type="button" className="ac" value="÷" />
     </div>
 
     <div className="row2">
@@ -19,7 +20,7 @@ const Table = () => (
       <input type="button" className="four" value="4" />
       <input type="button" className="five" value="5" />
       <input type="button" className="six" value="6" />
-      <input type="button" className="moins" value="--" />
+      <input type="button" className="moins" value="-" />
     </div>
 
     <div className="row4">
