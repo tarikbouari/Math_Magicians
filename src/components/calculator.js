@@ -1,7 +1,7 @@
 import React from 'react';
 import Table from './Table';
 
-export default class Calculator extends React.PureComponent {
+class Calculator extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = {};
@@ -11,3 +11,5 @@ export default class Calculator extends React.PureComponent {
     return <Table />;
   }
 }
+
+export default Calculator;
