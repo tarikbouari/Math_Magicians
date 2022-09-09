@@ -1,21 +1,12 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
-// class Table extends React.Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = { total: '', next: null, operation: null };
-//     // this.clikHandler = this.clikHandler.bind(this);
-//   }
-
 const Table = () => {
   const [state, setState] = useState({ total: '', next: null, operation: null });
-
-
- const clikHandler = (e) => {
+  const clikHandler = (e) => {
     const { value } = e.target;
     const data = calculate(state, value);
-    setState(data)
+    setState(data);
   };
 
   const { total, next, operation } = state;
