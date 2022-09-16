@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Calculator from './components/calculator';
+import Nav from './components/nav';
 
 class App extends React.PureComponent {
   constructor(props) {
@@ -11,6 +12,7 @@ class App extends React.PureComponent {
   render() {
     return (
       <div className="App">
+        <Nav />
         <Calculator />
       </div>
     );
