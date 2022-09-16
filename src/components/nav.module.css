@@ -1,0 +1,33 @@
+.containerNav {
+  width: 100%;
+  padding: 1rem;
+  background-color: #f7ede3;
+  height: 70px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  color: #ff9501;
+  font-size: 1.2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar a {
+  color: #ff9501 !important;
+}
+
+.boxlist {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.boxlist li {
+  list-style: none;
+}
