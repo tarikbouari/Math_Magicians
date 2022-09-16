@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 const Quotes = () => {
   const [state, setState] = useState({
     id: 0,
-    author: "unknown",
-    quote: "Math is Gorvern the world",
+    author: 'unknown',
+    quote: 'Math is Gorvern the world',
   });
 
-  const url = "https://random-math-quote-api.herokuapp.com/";
+  const url = 'https://random-math-quote-api.herokuapp.com/';
   const hitApi = async () => {
     const res = await fetch(url);
     const data = res.json();
@@ -15,10 +15,20 @@ const Quotes = () => {
     setState(data);
   };
 
+  const { quote, author } = state;
   return (
     <div>
-      <p></p>
-      <button onClick={hitApi}> </button>
+      <div>
+        <p>
+          {' '}
+          {quote}
+        </p>
+        <span>
+          {' '}
+          {author}
+        </span>
+      </div>
+      <button type="button" onClick={() => hitApi}> Quotes</button>
     </div>
   );
 };
