@@ -3,6 +3,7 @@ import calculate from '../logic/calculate';
 
 const Table = () => {
   const [state, setState] = useState({ total: '', next: null, operation: null });
+  
   const clikHandler = (e) => {
     const { value } = e.target;
     const data = calculate(state, value);
