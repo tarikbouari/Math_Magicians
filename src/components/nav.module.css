@@ -1,0 +1,23 @@
+.containerNav {
+    width: 100%;
+    padding: 1rem;
+    background-color: #F7EDE3;
+    height:70px;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+}
+
+.boxlist {
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.boxlist li {
+    list-style: none;
+}
