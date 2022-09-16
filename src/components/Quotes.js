@@ -11,7 +11,6 @@ const Quotes = () => {
   const hitApi = async () => {
     const res = await fetch(url);
     const data = res.text();
-    console.log(data);
     setState(data);
   };
 
