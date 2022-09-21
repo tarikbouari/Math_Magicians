@@ -3,7 +3,7 @@ const Quotes = () => {
   const [state, setState] = useState({
     id: 0,
     author: 'unknown',
-    quote: 'math is Gorvern the world',
+    quote: 'math Gorvern the world',
   });
 
   const url = 'https://random-math-quote-api.herokuapp.com/';
