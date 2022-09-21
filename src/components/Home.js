@@ -1,19 +1,31 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+import calc from '../images/clc.png';
 
 const Home = () => (
   <div
     style={{
-      padding: '9rem 10rem',
+      margin: '5rem auto', display: 'flex', justifyContent: 'space-around', width: '80%',
     }}
   >
-    <p>
-      Minim ut magna nulla officia consectetur proident dolor ipsum. Pariatur in
-      deserunt magna cupidatat proident eiusmod ad. Eiusmod est in id voluptate.
-      Occaecat veniam cupidatat aliqua sint adipisicing in Lorem irure dolor
-      velit sunt aliquip cupidatat. Veniam irure pariatur esse sint sint aute ut
-      quis fugiat eu non. Excepteur ea veniam pariatur cupidatat occaecat
-      cupidatat ex ex proident est.
-    </p>
+    <div style={{
+      width: '50%',
+      display: 'flex',
+      flexDirection: 'column',
+      gap: '0.8rem',
+    }}
+    >
+      <h1> ECTS Credit and German Grade calculator</h1>
+      <p>
+        Minim ut magna nulla officia consectetur proident dolor ipsum. Pariatur
+        in deserunt magna cupidatat proident eiusmod ad.
+
+      </p>
+      <button type="button" className="btn btn-warning "><NavLink to="calculator">calculate Now</NavLink></button>
+    </div>
+    <div>
+      <img className="imgCalc" src={calc} alt="calculator.png" />
+    </div>
   </div>
 );
 
