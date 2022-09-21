@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 const Quotes = () => {
   const [state, setState] = useState({
     id: 0,
@@ -17,15 +18,15 @@ const Quotes = () => {
   return (
     <div className="containerImage">
       <div className="containerQuote">
-      <div className="quote">
-        <spann>{quote}</spann>
-        <span>{author}</span>
+        <div className="quote">
+          <spann>{quote}</spann>
+          <span>{author}</span>
+        </div>
+        <button className="btn btn-warning" type="button" onClick={() => hitApi()}>
+          Quotes
+        </button>
       </div>
-      <button className="btn btn-warning" type="button" onClick={() => hitApi()}>
-        Quotes
-      </button>
-      </div>
-      
+
     </div>
   );
 };

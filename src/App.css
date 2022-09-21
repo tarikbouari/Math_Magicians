@@ -90,8 +90,8 @@ body {
   flex-direction: column;
   align-items: center;
   color: #000;
-
 }
+
 .containerImage {
   width: 100%;
   background-image: url('./images/black.jpg');
@@ -124,15 +124,15 @@ body {
   align-self: center;
 }
 
-.btn:hover {
-  background-color: #fd9503;
-}
-
 .btn {
   width: fit-content;
 }
 
-.imgCalc{
+.btn:hover {
+  background-color: #fd9503;
+}
+
+.imgCalc {
   width: 100%;
   height: auto;
 }
