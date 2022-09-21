@@ -8,6 +8,7 @@
 body {
   background-color: #fff;
   height: 100vh !important;
+  overflow: hidden;
 }
 
 .big-container {
@@ -97,6 +98,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .quote {
