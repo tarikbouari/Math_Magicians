@@ -14,7 +14,7 @@ const Table = () => {
   return (
     <div className="big-container">
       <h1>Lets do some Maths</h1>
-      <div className="container">
+      <div className="container-calc">
         <div className="render">
           {next}
           {operation}
