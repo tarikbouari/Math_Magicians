@@ -1,7 +1,7 @@
 .containerNav {
   width: 100%;
   padding: 1rem;
-  background-color: #f7ede3;
+  background-color: #8587EC;
   height: 70px;
 }
 
@@ -10,16 +10,16 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 1rem;
-  color: #ff9501;
+  color: #fff;
   font-size: 1.2em;
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .navbar a {
-  color: #ff9501 !important;
+  color: #fff !important;
 }
 
 .boxlist {
