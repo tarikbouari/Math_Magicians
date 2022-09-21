@@ -4,7 +4,7 @@ const Quotes = () => {
   const [state, setState] = useState({
     id: 0,
     author: 'unknown',
-    quote: 'math is Gorvern the world',
+    quote: 'math Gorvern the world',
   });
 
   const url = 'https://random-math-quote-api.herokuapp.com/';
@@ -16,14 +16,17 @@ const Quotes = () => {
 
   const { quote, author } = state;
   return (
-    <div className="containerQuote">
-      <div className="quote">
-        <spann>{quote}</spann>
-        <span>{author}</span>
+    <div className="containerImage">
+      <div className="containerQuote">
+        <div className="quote">
+          <spann>{quote}</spann>
+          <span>{author}</span>
+        </div>
+        <button className="btn btn-warning" type="button" onClick={() => hitApi()}>
+          Quotes
+        </button>
       </div>
-      <button className="btn" type="button" onClick={() => hitApi()}>
-        Quotes
-      </button>
+
     </div>
   );
 };
