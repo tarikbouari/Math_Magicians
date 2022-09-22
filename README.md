@@ -13,7 +13,7 @@
 
 ## Live demo
 
-[Coming soon]()
+[Click Here](https://startling-profiterole-1f22f5.netlify.app/)
 
 ## Authors
 
