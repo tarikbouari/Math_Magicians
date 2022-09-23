@@ -4,7 +4,7 @@
 
 ## Description
 
-> Math-Magicians is an oline web calculator built with React Library .
+> Math-Magicians is an oline web calculator build with React Library .
 
 ## Built With
 - React 
