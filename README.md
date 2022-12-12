@@ -11,6 +11,10 @@
 - VCS: GitBash
 - Following github flows standards.
 
+# Preview
+
+![Math magican](https://user-images.githubusercontent.com/104431739/206976009-df677c0a-145f-4789-98d0-592492805646.PNG)
+
 ## Live demo
 
 [Click Here](https://startling-profiterole-1f22f5.netlify.app/)
